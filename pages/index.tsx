@@ -49,13 +49,13 @@ const Home: React.FC = () => {
     setLang('ja-JP')
   }, [])
 
-  // useEffect(() => {
-  //   setVoice(
-  //     speechSynthesisVoices.find(
-  //       (speechSynthesisVoice) => speechSynthesisVoice.lang === lang
-  //     )?.name || ''
-  //   )
-  // }, [lang, text])
+  useEffect(() => {
+    setVoice(
+      speechSynthesisVoices.find(
+        (speechSynthesisVoice) => speechSynthesisVoice.lang === lang
+      )?.name || ''
+    )
+  }, [lang, text])
 
   return (
     <>
