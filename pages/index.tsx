@@ -63,7 +63,7 @@ const Home: React.FC = () => {
         <title>Next Text 2 Speech</title>
         <meta property="og:title" content="Next Text 2 Speech" key="title" />
       </Head>
-      <Box maxWidth="500px" marginX="auto" mt="30px" mx="15px">
+      <Box maxWidth="500px" marginX="auto" mt="30px" px="15px">
         <Box mb="15px">
           <TextField
             multiline
