@@ -105,6 +105,7 @@ const Home: React.FC = () => {
             disableElevation
             color="primary"
             fullWidth
+            disabled={!text}
             onClick={handleSpeech}
           >
             文章を読み上げる
